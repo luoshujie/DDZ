@@ -27,12 +27,16 @@ public class Player : MonoBehaviour {
     /// 抢地主的索引
     /// </summary>
     public int DiZhuIndex;
+
+    public bool gittest;
+
     public void OnServerConnect()
     {
 
     }
     void Start () {
         Poke = new List<GameObject>();
+        gittest = false;
 	}
     /// <summary>
     /// 出牌
